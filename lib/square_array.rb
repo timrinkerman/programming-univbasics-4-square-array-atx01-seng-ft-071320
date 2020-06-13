@@ -8,5 +8,5 @@ def square_array(array)
   array.length.times do |index|
     newArray.push(array[index] ** 2)
   end
-  new_array
+  newArray
 end  
