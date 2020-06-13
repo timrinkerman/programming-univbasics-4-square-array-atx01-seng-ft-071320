@@ -4,8 +4,9 @@
 
 def square_array(array)
   newArray = []
+  
   array.length.times do |index|
-    new_array.push(array[index] ** 2)
+    new_array.push(array[index] * 2)
   end
   new_array
 end  
